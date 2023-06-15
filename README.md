@@ -15,7 +15,8 @@ In the main file you can find the definition of the MDP, rewards and transition 
 The header and implementation files define a C++ class. This class has the MDP as an attribute, and the Policy Iteration: Policy Evaluation and Policy Importovement, as a method.
 
 ## Code output:
-`For action 0 The transition matrix P:
+```shell
+For action 0 The transition matrix P:
 0.000754342    0.289299    0.104964  0.00903371    0.595949
    0.243985    0.151647    0.371851   0.0395698    0.192947
   0.0846599    0.392397    0.311173    0.159616   0.0521539
@@ -44,4 +45,5 @@ Policy Iteration algorithm converged.
 Policy mu(xi)=
 2 0 0 1 2
 Optimal Value V(xi)=
-26.3416 18.3026 22.5042 29.8541 30.1691`
+26.3416 18.3026 22.5042 29.8541 30.1691
+```
