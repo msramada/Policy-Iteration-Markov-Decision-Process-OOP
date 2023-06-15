@@ -1,20 +1,20 @@
 # Policy-Iteration-Markov-Decision-Process-OOP
 Policy iteration algorithm applied on finite state and action spaces Markov decision process. This work follows the notation in https://web.stanford.edu/class/cme241/lecture_slides/david_silver_slides/MDP.pdf. However, we choose to use recursive formula, as opposed to direct inverse methods; to avoid computational prohibitiveness for large dimensional state spaces.
 
-This code uses Eigen library https://eigen.tuxfamily.org/index.php?title=Main_Page.
+This code uses the Eigen library https://eigen.tuxfamily.org/index.php?title=Main_Page.
 
 # Compiling the code
-A Makefile is included, or you can run the following command in the terminal 
+A Makefile is included, or you can run the following command in your terminal 
 ```shell
 g++ main.cpp PI_algorithm.cpp PI_algorithm.h -o output | ./output
 ```
 
 # Components:
 ## Main file:
-In the main file you can find the definition of the MDP, rewards and transition dynamics.
+In the main file you can find the problem initialization: the definition of the MDP, rewards and transition dynamics.
 
 ## PI_algorithm:
-The header and implementation files define a C++ class. This class has the MDP as an attribute, and the Policy Iteration: Policy Evaluation and Policy Importovement, as a method.
+The header and implementation files carrying this name define a C++ class which has the MDP as an attribute, and the Policy Iteration: Policy Evaluation and Policy Importovement, as a method.
 
 ## Code output:
 ```shell
