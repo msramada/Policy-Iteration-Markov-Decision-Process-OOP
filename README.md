@@ -1,6 +1,8 @@
 # Policy-Iteration-Markov-Decision-Process-OOP
 Policy iteration algorithm applied on finite state and action spaces Markov decision process. This work follows the notation in https://web.stanford.edu/class/cme241/lecture_slides/david_silver_slides/MDP.pdf. However, we choose to use recursive formula, as opposed to direct inverse methods; to avoid computational prohibitiveness for large dimensional state spaces.
 
+This code uses Eigen library https://eigen.tuxfamily.org/index.php?title=Main_Page.
+
 # Compiling the code
 A Makefile is included, or you can run the following command in the terminal 
 ```shell
